@@ -151,7 +151,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
-        btn_Novo.setIcon(new javax.swing.ImageIcon("C:\\Users\\Rodrigo\\Desktop\\Image Icon\\add-user (5).png")); // NOI18N
+        btn_Novo.setText("NOVO");
         btn_Novo.setToolTipText("");
         btn_Novo.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         btn_Novo.addActionListener(new java.awt.event.ActionListener() {
@@ -160,14 +160,13 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        btn_Deletar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Rodrigo\\Desktop\\Image Icon\\delete-user (1).png")); // NOI18N
+        btn_Deletar.setText("EXCLUIR");
         btn_Deletar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_DeletarActionPerformed(evt);
             }
         });
 
-        btn_Pesquisar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Rodrigo\\Desktop\\Image Icon\\lupa (4).png")); // NOI18N
         btn_Pesquisar.setBorderPainted(false);
         btn_Pesquisar.setContentAreaFilled(false);
         btn_Pesquisar.setMaximumSize(new java.awt.Dimension(605, 521));
@@ -179,7 +178,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        btn_Salvar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Rodrigo\\Desktop\\Image Icon\\salve-.png")); // NOI18N
+        btn_Salvar.setText("SALVAR");
         btn_Salvar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_SalvarActionPerformed(evt);
