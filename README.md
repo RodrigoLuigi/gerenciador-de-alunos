@@ -14,9 +14,9 @@
 ## Screenshots
 
 <div align="center">
-  <img src="img/image-1.png" width="270px" height="200px">
-  <img src="img/image-2.png" width="270px" height="200px">
-  <img src="img/image-3.png" width="270px" height="200px">
+  <img src="images/image-1.png" width="270px" height="200px">
+  <img src="images/image-2.png" width="270px" height="200px">
+  <img src="images/image-3.png" width="270px" height="200px">
 </div>
 
 <br><hr>
